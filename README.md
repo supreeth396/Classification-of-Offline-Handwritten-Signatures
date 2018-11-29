@@ -12,10 +12,14 @@ performance measures.
 
 # Signature Acquisition Phases
 ⚫ Pre-processing
+
 ⚫ Feature extraction
+
 ⚫ Classification
+
 Once the featured are extracted for both genuine and forgery, it has to be classified using
 classifiers.
+
 -------Statistical Classifier----------
 The pseudo code is as follows:
 Step 1: Read the features from the excel sheet.
@@ -24,6 +28,8 @@ Step 3: Given the test input, extract the feature and record them in the excel s
 the features. Compare each feature with each threshold value.
 Step 4: If both matches then the given input signature is supposed to be “genuine” else
 “forgery”.
+
+
 ---------Linear Classifier-----------
 The pseudo code is as follows:
 Step 1: Read the features from the excel sheet.
@@ -32,6 +38,8 @@ Step 3: Define a label such that “1” is for genuine and “0” is for forge
 Step 4: Using the function clf.fit(x,y), fit the points on the hyperplane where x is array and y is
 label.
 Step 5: Linear classifier plots the graph according to the points.
+
+
 ----------Logistic Regression-----------
 The pseudo code is as follows:
 Step 1: Read the features from the excel sheet.
