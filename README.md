@@ -21,7 +21,9 @@ Once the featured are extracted for both genuine and forgery, it has to be class
 classifiers.
 
 -------Statistical Classifier----------
+
 The pseudo code is as follows:
+
 Step 1: Read the features from the excel sheet.
 
 Step 2: Fix the threshold value for each feature.
@@ -34,6 +36,7 @@ Step 4: If both matches then the given input signature is supposed to be “genu
 
 
 ---------Linear Classifier-----------
+
 The pseudo code is as follows:
 
 Step 1: Read the features from the excel sheet.
@@ -49,6 +52,7 @@ Step 5: Linear classifier plots the graph according to the points.
 
 
 ----------Logistic Regression-----------
+
 The pseudo code is as follows:
 
 Step 1: Read the features from the excel sheet.
